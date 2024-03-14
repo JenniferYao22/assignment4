@@ -6,6 +6,7 @@ import ScatterPlot from './components/scatterPlot'
 import BarChart from './components/barChart'
 import Tooltip from './components/tooltips'
 import { useState } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const csvUrl = 'https://gist.githubusercontent.com/hogwild/3b9aa737bde61dcb4dfa60cde8046e04/raw/citibike2020.csv'
